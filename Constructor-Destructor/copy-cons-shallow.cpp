@@ -19,7 +19,7 @@ class Sample
         Sample(const Sample& other)
         {
             var = other.var;        //Shallow copy
-            cout << "Shallow Copy Constructor: Copied the pointer (address)" << endl;
+            cout << "Shallow Copy Constructor: Copied the pointer (address): " << var << endl;
         }
 
         ~Sample()
