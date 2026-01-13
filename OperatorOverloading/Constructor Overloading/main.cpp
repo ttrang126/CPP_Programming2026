@@ -7,7 +7,7 @@ int main()
 {
     Mystring empty;
     Mystring larry("Larry");        //Overloaded Constructor
-    Mystring stooge(larry);         //Copy Constructor
+    Mystring stooge = larry;         //Copy Constructor
 
     empty.Display();
     larry.Display();
